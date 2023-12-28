@@ -9,5 +9,25 @@
 
 body {
     font-size: 16px;
+    background-image: url("/faq-accordion/assets/images/background-pattern-desktop.svg"); 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    background-color: hsl(275, 100%, 97%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 480px;
+    padding: 1.0rem;
+
+    border-radius: 1.5rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
