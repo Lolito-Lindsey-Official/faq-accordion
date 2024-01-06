@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -5,7 +7,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
     margin-top: 10px;
 }
 
@@ -14,8 +16,7 @@
 }
 
 body {
-    font-size: 14px;
-    font-family: work-sans;
+    font-family: 'Work Sans', sans-serif;
     background-image: url("/faq-accordion/assets/images/background-pattern-desktop.svg"); 
     background-position: top;
     background-repeat: repeat-x;
@@ -23,17 +24,24 @@ body {
     background-color: hsl(275, 100%, 97%);
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 #accordion-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
 }
 
 .accordion {
     display: flex;
     flex-direction: column;
+    
     background-color: #ffffff;
-    width: 400px;
+    min-width: 375px;
+    max-width: 500px;
+
     padding: 1.0rem;
 
     border-radius: 1.0rem;
@@ -46,33 +54,41 @@ body {
 
 .accordion-button {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    gap: 10px;
 
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
+    background-color: #ffffff;
 }
 
 .accordion-content {
     display: none;
-    padding: 10px;
+    padding: 5px;
     background-color: white;
 }
 
+.accordion-answer {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .accordion-button p {
+    margin: 0;
+    font-size: 1.0rem;
     color: hsl(292, 42%, 14%);
 }
 
 .accordion-button p:hover {
-    transition: 0.1s;
-    color: hsl(292, 16%, 49%);
+    transition: 0.2s;
+    color: hsl(293, 38%, 57%);
 }
-
 
 
 
