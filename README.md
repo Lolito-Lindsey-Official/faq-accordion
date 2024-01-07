@@ -10,8 +10,6 @@
   - [Continued Improvement](#continued-improvement)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 This is for a FAQ accordion for the FrontEndMentor site.
@@ -34,7 +32,7 @@ Find the final screenshot using this file path: assets/images/faq-accordion-scre
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Flexbox
-- JavaScript (a mix DOM manipulation and function parameters)
+- JavaScript (a mix of DOM manipulation and function parameters)
 
 ### Continued Improvement
 
@@ -78,8 +76,6 @@ Here are some code snippet highlights for me, where I did the most growth and le
         iconCollapse.style.display = "block";
     }
 ```
-
-
 
 ## Author
 
