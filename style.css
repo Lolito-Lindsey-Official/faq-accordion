@@ -12,16 +12,15 @@
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(227, 100%, 79%); 
     text-decoration: none;
 }
 
 body {
     font-family: 'Work Sans', sans-serif;
     background-image: url("/faq-accordion/assets/images/background-pattern-desktop.svg"); 
-    background-position: top;
+    background-position: center;
     background-repeat: repeat-x;
-    background-size: 200vh;
     background-color: hsl(275, 100%, 97%);
 }
 
