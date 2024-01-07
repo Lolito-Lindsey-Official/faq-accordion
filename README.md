@@ -18,7 +18,7 @@ This is for a FAQ accordion for the FrontEndMentor site.
 
 ### Screenshot
 
-Find the final screenshot using this file path: insert screenshot here
+Find the final screenshot using this file path: assets/images/faq-accordion-screenshot-final
 
 ### Links
 
