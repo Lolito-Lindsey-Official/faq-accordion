@@ -22,8 +22,8 @@ Find the final screenshot using this file path: insert screenshot here
 
 ### Links
 
-- Solution URL: insert solution URL here
-- Live Site URL: insert live site URL here
+- Solution URL: https://github.com/Lolito-Lindsey-Official/faq-accordion
+- Live Site URL: https://lolito-lindsey-official.github.io/faq-accordion/
 
 - Used for personal experimentation: https://www.freecodecamp.org/news/build-an-accordion-menu-using-html-css-and-javascript/
 
